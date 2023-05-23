@@ -18,7 +18,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - cwf-orc8r/cwf-orc8r-1.8.0.tgz
+    - charts/cwf-orc8r/cwf-orc8r-1.8.0.tgz
     version: 1.8.0
   domain-proxy:
   - apiVersion: v2
@@ -35,7 +35,7 @@ entries:
     - https://github.com/magma/magma
     type: application
     urls:
-    - domain-proxy/domain-proxy-1.8.0.tgz
+    - charts/domain-proxy/domain-proxy-1.8.0.tgz
     version: 1.8.0
   feg-orc8r:
   - apiVersion: v2
@@ -55,7 +55,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - feg-orc8r/feg-orc8r-1.8.0.tgz
+    - charts/feg-orc8r/feg-orc8r-1.8.0.tgz
     version: 1.8.0
   lte-orc8r:
   - apiVersion: v2
@@ -75,7 +75,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - lte-orc8r/lte-orc8r-1.8.0.tgz
+    - charts/lte-orc8r/lte-orc8r-1.8.0.tgz
     version: 1.8.0
   orc8r:
   - apiVersion: v2
@@ -115,7 +115,7 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - orc8r/orc8r-1.8.0.tgz
+    - charts/orc8r/orc8r-1.8.0.tgz
     version: 1.8.0
   orc8rlib:
   - apiVersion: v2
@@ -131,7 +131,7 @@ entries:
     - https://github.com/magma/magma
     type: library
     urls:
-    - orc8rlib/orc8rlib-0.1.4.tgz
+    - charts/orc8rlib/orc8rlib-0.1.4.tgz
     version: 0.1.4
   secrets:
   - apiVersion: v1
@@ -147,6 +147,6 @@ entries:
     sources:
     - https://github.com/magma/magma
     urls:
-    - secrets/secrets-0.1.10.tgz
+    - charts/secrets/secrets-0.1.10.tgz
     version: 0.1.10
 generated: "2023-05-23T11:34:33.947896424-03:00"
