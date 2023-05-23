@@ -1,0 +1,39 @@
+apiVersion: v1
+entries:
+  cwf-orc8r:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2023-05-23T11:27:29.11275384-03:00"
+    dependencies:
+    - name: orc8rlib
+      repository: https://shubhamtatvamasi.github.io/magma-charts-04-09-2023
+      version: 0.1.4
+    description: A Helm chart for magma orchestrator's cwf module
+    digest: f40e2ea248144d6f484e2a9a6771c8c5deda46e23006072b028a50d87c9244a9
+    keywords:
+    - magma
+    - or8cr
+    - cwf-orc8r
+    name: cwf-orc8r
+    sources:
+    - https://github.com/magma/magma
+    urls:
+    - cwf-orc8r-1.8.0.tgz
+    version: 1.8.0
+  orc8rlib:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-05-23T11:27:29.113182651-03:00"
+    description: A Helm library chart for orchestrator modules
+    digest: 4d06c951441f9200dc48c1621c8541215911c1ff29d3fe32a07583a93305b54e
+    keywords:
+    - magma
+    - orc8rlib
+    name: orc8rlib
+    sources:
+    - https://github.com/magma/magma
+    type: library
+    urls:
+    - charts/orc8rlib-0.1.4.tgz
+    version: 0.1.4
+generated: "2023-05-23T11:27:29.111455254-03:00"

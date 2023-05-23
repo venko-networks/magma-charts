@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  domain-proxy:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2023-05-23T11:27:29.246693631-03:00"
+    description: A Helm chart for magma orchestrator's domain-proxy module.
+    digest: 675cd54c0e6adf56f8479930734d036910cd6941d951dc0e9c3a8f69ad15ef5e
+    keywords:
+    - magma
+    - orc8r
+    - dp
+    name: domain-proxy
+    sources:
+    - https://github.com/magma/magma
+    type: application
+    urls:
+    - domain-proxy-1.8.0.tgz
+    version: 1.8.0
+generated: "2023-05-23T11:27:29.243949002-03:00"

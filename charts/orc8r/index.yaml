@@ -1,0 +1,59 @@
+apiVersion: v1
+entries:
+  orc8r:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2023-05-23T11:27:29.61312418-03:00"
+    dependencies:
+    - condition: certs.create
+      name: certs
+      repository: ""
+      version: 0.1.0
+    - condition: secrets.create
+      name: secrets
+      repository: ""
+      version: 0.1.10
+    - condition: metrics.enabled
+      name: metrics
+      repository: ""
+      version: 1.4.24
+    - condition: nms.enabled
+      name: nms
+      repository: ""
+      version: 0.1.12
+    - condition: logging.enabled
+      name: logging
+      repository: ""
+      version: 0.1.10
+    - name: orc8rlib
+      repository: https://shubhamtatvamasi.github.io/magma-charts-04-09-2023
+      version: 0.1.4
+    description: Helm chart for the Magma Orchestrator
+    digest: 065d76c11071ad07c54505491a100e014addb1b0c32af070e931e56da8e43127
+    home: https://www.magmacore.org
+    keywords:
+    - magma
+    - orc8r
+    name: orc8r
+    sources:
+    - https://github.com/magma/magma
+    urls:
+    - orc8r-1.8.0.tgz
+    version: 1.8.0
+  orc8rlib:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2023-05-23T11:27:29.613575867-03:00"
+    description: A Helm library chart for orchestrator modules
+    digest: 4d06c951441f9200dc48c1621c8541215911c1ff29d3fe32a07583a93305b54e
+    keywords:
+    - magma
+    - orc8rlib
+    name: orc8rlib
+    sources:
+    - https://github.com/magma/magma
+    type: library
+    urls:
+    - charts/orc8rlib-0.1.4.tgz
+    version: 0.1.4
+generated: "2023-05-23T11:27:29.592582568-03:00"
